@@ -1,0 +1,13 @@
+body {
+  background-color: powderblue;
+}
+h1 {
+  color: red;
+}
+ul {
+	border: 1px solid black;
+	padding: 35px;
+	color: black;
+	font-family: verdana;
+	font-size: 160%;
+}
