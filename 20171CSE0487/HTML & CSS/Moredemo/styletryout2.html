@@ -1,0 +1,62 @@
+<html>
+<head>
+<style>
+div {
+padding-top:50px;
+padding-right:30px;
+padding-bottom:50px;
+padding-left:30px;
+border-style:solid;
+background-color:red;
+margin:20px;
+}
+
+h1::before{
+content:url(/home/Sem6B8/20171CSE0487/HTML/lamp.png);
+}
+
+div:hover{
+background-color: powderblue;
+}
+
+a:link {
+color:yellow;
+}
+
+a:visited {
+color:green;
+}
+
+
+a:hover{
+color:black;
+}
+
+
+p {
+display:none;
+background-color:red;
+padding:20px;
+}
+
+div:hover p {
+display:block;
+}
+
+div:hover span {
+display:block;
+}
+
+</style>
+<body>
+<div>
+<h1>Pixar</h1>
+<a href="https://www.apple.com">Home</a>
+<a style="padding-left:200px" href="https://www.pixar.com">Another Home</a>
+<a style="padding-left:200px" href="https://www.disney.com">The Last Home</a>
+
+<p>Onward we <span>shall</span> moveth</p>
+
+</div>
+</body>
+</html>
